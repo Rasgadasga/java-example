@@ -10,12 +10,20 @@
     <version>1.0</version>
 
 <dependencies>
+
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter</artifactId>
         <version>5.11.4</version>
         <scope>test</scope>
     </dependency>
+
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-text</artifactId>
+        <version>1.10.0</version>
+    </dependency>
+
 </dependencies>
 
 </project>
