@@ -23,3 +23,6 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t java-example .
+        
+      - name: Run Docker container
+        run: docker run java-example
