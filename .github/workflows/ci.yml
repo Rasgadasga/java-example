@@ -18,11 +18,11 @@ jobs:
           distribution: temurin
           java-version: '25'
 
-      - name: Run tests
-        run: mvn test
+      - name: Build Java project
+        run: mvn clean package
 
       - name: Build Docker image
         run: docker build -t java-example .
-        
+
       - name: Run Docker container
         run: docker run java-example
